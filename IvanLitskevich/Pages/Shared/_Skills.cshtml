@@ -1,0 +1,45 @@
+﻿@model IvanLitskevich.Models.DataModel
+
+<div class="row mb-5">
+    <div class="col-md-4">
+        <h3 class="category">@Model.Translations.Headings.SkillsTechnicalNet</h3>
+        <vc:skill-bar-list skills="@Model.Skills.Technical" category=".NET Development" color="#2A9FD6"></vc:skill-bar-list>
+    </div>
+    <div class="col-md-4">
+        <h3 class="category">@Model.Translations.Headings.SkillsTechnicalWeb</h3>
+        <vc:skill-bar-list skills="@Model.Skills.Technical" category="Web Development" color="#27ae60"></vc:skill-bar-list>
+    </div>
+    <div class="col-md-4">
+        <h3 class="category">@Model.Translations.Headings.SkillsTechnicalMethodology</h3>
+        <vc:skill-bar-list skills="@Model.Skills.Technical" category="Methodology" color="#e67e22"></vc:skill-bar-list>
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-4">
+        <h3 class="category">@Model.Translations.Headings.SkillsSoftStrengths</h3>
+        <ul class="pl-3">
+            @foreach (var item in Model.Skills.Soft)
+            {
+                <li>@item.Title</li>
+            }
+        </ul>
+    </div>
+    <div class="col-md-4">
+        <h3 class="category">@Model.Translations.Headings.SkillsSoftRoles</h3>
+        <ul class="pl-3">
+            @foreach (var item in Model.Skills.Roles)
+            {
+                <li>@item.Title</li>
+            }
+        </ul>
+    </div>
+    <div class="col-md-4">
+        <h3 class="category">@Model.Translations.Headings.SkillsSoftLanguages</h3>
+        <ul class="pl-3">
+            @foreach (var item in Model.Skills.Languages)
+            {
+                <li><span>@item.Title</span> <span>@item.Label</span></li>
+            }
+        </ul>
+    </div>
+</div>

@@ -1,0 +1,537 @@
+{
+  "info": {
+    "name": "Иван Лицкевич",
+    "title": "Архитектор Решений",
+    "titles": [ "Senior .NET Developer", "Solutions Architect", "Full-Stack Developer", "Team Leader" ],
+    "url": "http://ivan.litskevich.ru/",
+    "address": "Москва, Россия",
+    "phone": "+7-909-900-7011",
+    "email": "sxkote@gmail.com",
+    "skype": "ivan.litskevich",
+    "cv": "data/cv-en.pdf",
+    "credo": "Эффективность превыше всего",
+    "facebook": "https://www.facebook.com/ivan.litskevich",
+    "linkedin": "https://www.linkedin.com/in/ivanlitskevich",
+    "googleplus": "https://plus.google.com/104075157979954791192",
+    "github": "https://github.com/sxkote",
+    "pluralsight": "https://pluralsight.com/profile/ivan-litskevich",
+    "microsoftMCSA": "data/certificates/ms-mcsa-2016.pdf",
+    "microsoftMCSD": "data/certificates/ms-mcsd-2016.pdf"
+  },
+  "experiences": [
+    {
+      "period": "01.2018 - till now",
+      "avatarUrl": "images/light-version.png",
+      "organization": "Ай-Ти-Эф Консалтинг",
+      "position": "Партнер и Руководитель ИТ",
+      "roles": "Руководитель ИТ, Архитектор Решений, Ведущий Разработчик .NET, Team Leader",
+      "text": "Построение «с нуля» собственного облачного B2B SAAS решения по факторингу и верификации дебиторской задолженности - [Light-Version](http://light-version.com).\n\nВнедрение и интеграция Партнерам собственной Факторинговой Системы.\n\n"
+    },
+    {
+      "period": "02.2015 - 01.2018",
+      "avatarUrl": "images/metib.jpg",
+      "organization": "АКБ Металлинвестбанк",
+      "position": "Руководитель отдела проектов банковских технологий",
+      "roles": "Руководитель Проектов, Бизнес Аналитик, Архитектор Решений, Team Leader, Ведущий Разработчик .NET",
+      "text": "Управление и коучинг команд.\n\nПостроение проектного офиса и сервисной модели ИТ «с нуля».\n\nТрансформация бизнес-процессов от аналитики до принятия решения.\n\n"
+    },
+    {
+      "period": "10.2014 - 02.2015",
+      "avatarUrl": "images/vw.jpg",
+      "organization": "Фольксваген Финансовые Услуги РУС",
+      "position": "Бизнес Аналитик",
+      "roles": "Бизнес Аналитик",
+      "text": "Анализ и согласование бизнес и функциональных требований.\n\nВедение небольших проектов.\n\nАдминистрирование JIRA."
+    },
+    {
+      "period": "05.2006 - 09.2014",
+      "avatarUrl": "images/metib.jpg",
+      "organization": "АКБ Металлинвестбанк",
+      "position": "Начальник банковских технологий Банковского Упрвавления",
+      "roles": "Архитектор Решений, Ведущий Разработчик .NET, Team Lead, Бизнес Аналитик",
+      "text": "Разработка архитектуры и решений с нуля:\n\n**MSSQL, WinForms, ASP.NET, WCF, MVC, Azure, HTML, jQuery, REST, SOAP, X509 и другие технологии.**\n\nБизнес анализ, оптимизация и трансформация бизнес-процессов.\n\nУправление группами разработки и сопровождения.\n\nЗапуск новых продуктов, решений и стартапов «с нуля»."
+    }
+  ],
+  "skills": {
+    "technical": [
+      {
+        "category": ".Net Development",
+        "title": "MS SQL",
+        "value": 90
+      },
+      {
+        "category": ".Net Development",
+        "title": "Microsoft Azure",
+        "value": 70
+      },
+      {
+        "category": ".Net Development",
+        "title": "C#.NET",
+        "value": 100
+      },
+      {
+        "category": ".Net Development",
+        "title": "ASP.NET MVC",
+        "value": 100
+      },
+      {
+        "category": ".Net Development",
+        "title": "ASP.NET Web Api",
+        "value": 100
+      },
+      {
+        "category": ".Net Development",
+        "title": "WCF",
+        "value": 70
+      },
+      {
+        "category": ".Net Development",
+        "title": "Entity Framework",
+        "value": 90
+      },
+      {
+        "category": ".Net Development",
+        "title": "ServiceStack",
+        "value": 80
+      },
+      {
+        "category": ".Net Development",
+        "title": "DevExpress",
+        "value": 70
+      },
+      {
+        "category": "Web Development",
+        "title": "HTML 5",
+        "value": 100
+      },
+      {
+        "category": "Web Development",
+        "title": "CSS 3, SASS",
+        "value": 100
+      },
+      {
+        "category": "Web Development",
+        "title": "Javascript",
+        "value": 80
+      },
+      {
+        "category": "Web Development",
+        "title": "JQuery",
+        "value": 80
+      },
+      {
+        "category": "Web Development",
+        "title": "TypeScript",
+        "value": 60
+      },
+      {
+        "category": "Web Development",
+        "title": "Angular JS",
+        "value": 70
+      },
+      {
+        "category": "Web Development",
+        "title": "Knockout JS",
+        "value": 20
+      },
+      {
+        "category": "Methodology",
+        "title": "Scrum",
+        "value": 80
+      },
+      {
+        "category": "Methodology",
+        "title": "DDD",
+        "value": 100
+      },
+      {
+        "category": "Methodology",
+        "title": "SOLID",
+        "value": 100
+      },
+      {
+        "category": "Methodology",
+        "title": "DRY",
+        "value": 100
+      },
+      {
+        "category": "Methodology",
+        "title": "SOA",
+        "value": 100
+      },
+      {
+        "category": "Methodology",
+        "title": "Design Patterns",
+        "value": 90
+      },
+      {
+        "category": "Methodology",
+        "title": "TDD",
+        "value": 50
+      },
+      {
+        "category": "Software",
+        "title": "Visual Studio",
+        "value": 80
+      },
+      {
+        "category": "Software",
+        "title": "WebStorm",
+        "value": 80
+      },
+      {
+        "category": "Software",
+        "title": "Jira Admin",
+        "value": 80
+      },
+      {
+        "category": "Software",
+        "title": "MS Office",
+        "value": 100
+      },
+      {
+        "category": "Software",
+        "title": "Corel Draw",
+        "value": 60
+      }
+    ],
+    "soft": [
+      {
+        "category": "Analysis",
+        "title": "Анализ и решение сложных проблем и задач",
+        "value": 60
+      },
+      {
+        "category": "Analysis",
+        "title": "Бизнес аналитика и трансформация бизнес-процессов",
+        "value": 60
+      },
+      {
+        "category": "Thinking",
+        "title": "Верхнеуровневый взгляд на бизнес-процессы и проблемы",
+        "value": 60
+      },
+      {
+        "category": "Thinking",
+        "title": "Креативное мышление",
+        "value": 60
+      },
+      {
+        "category": "Responsibility",
+        "title": "Ответсвенный подход к решениям и ответсвенность за исполение задач",
+        "value": 60
+      },
+      {
+        "category": "Learning",
+        "title": "Постоянное обучение и применение новых технологий, решений и практик",
+        "value": 60
+      },
+      {
+        "category": "Responsibility",
+        "title": "Открыт для новых вызовов и возможностей",
+        "value": 60
+      }
+    ],
+    "roles": [
+      {
+        "category": "Roles",
+        "title": "CIO",
+        "value": 80
+      },
+      {
+        "category": "Roles",
+        "title": "Архитектор решений",
+        "value": 80
+      },
+      {
+        "category": "Roles",
+        "title": "Ведущий разработчик .NET",
+        "value": 80
+      },
+      {
+        "category": "Roles",
+        "title": "Командный лидер",
+        "value": 60
+      },
+      {
+        "category": "Roles",
+        "title": "Бизнес аналитик",
+        "value": 80
+      },
+      {
+        "category": "Roles",
+        "title": "Руководитель проектов",
+        "value": 40
+      }
+    ],
+    "languages": [
+      {
+        "category": "Languages",
+        "title": "Русский",
+        "value": 100,
+        "label": "native"
+      },
+      {
+        "category": "Languages",
+        "title": "Английский",
+        "value": 90,
+        "label": "advanced"
+      },
+      {
+        "category": "Languages",
+        "title": "Немецкий",
+        "value": 50,
+        "label": "intermediate"
+      }
+    ]
+  },
+  "education": {
+    "institutes": [
+      {
+        "period": "2017 - 2019",
+        "organization": "Higher School of Economics",
+        "faculty": "МП «Психоанализ и бизнес-консультирование»",
+        "title": "Прикладной психоанализ, Психоаналитический коучинг и Бизнес-Консультирование",
+        "avatarUrl": "images/hse_en_logo.svg",
+        "certificate": {
+          "label": "диплом",
+          "url": "data/certificates/diplom-hse.pdf"
+        }
+      },
+      {
+        "period": "2002 - 2007",
+        "organization": "Московский государственный университет имени М.В.Ломоносова (МГУ)",
+        "faculty": "Факультет Вычислительной Математики и Кибернетики",
+        "title": "Математик, Системный программист",
+        "avatarUrl": "images/msu.jpg",
+        "certificate": {
+          "label": "диплом",
+          "url": "data/certificates/diplom-vmk.pdf"
+        }
+      },
+      {
+        "period": "2007 - 2010",
+        "organization": "Московский государственный университет имени М.В.Ломоносова (МГУ)",
+        "faculty": "Факультет Государственного Управления (ФГУ) (2-ое высшее)",
+        "title": "Государственное и муниципальное управление",
+        "avatarUrl": "images/msu.jpg",
+        "certificate": {
+          "label": "диплом",
+          "url": "data/certificates/diplom-spa.pdf"
+        }
+      }
+    ],
+    "courses": [
+      {
+        "period": "с 2015",
+        "organization": "Lynda.com (e-learning courses)",
+        "title": "Бизнес тренинги и курсы на Lynda.com",
+        "avatarUrl": "images/lynda.jpg"
+      },
+      {
+        "period": "с 2014",
+        "organization": "Pluralsight.com (e-learning courses)",
+        "title": "65+ курсов по разработке и ИТ на pluralsight.com",
+        "avatarUrl": "images/pluralsight.jpg",
+        "certificate": {
+          "label": "профиль",
+          "url": "https://pluralsight.com/profile/ivan-litskevich"
+        }
+      },
+      {
+        "period": "2011",
+        "organization": "Москва, Специалист",
+        "title": "Windows Azure Solutions with Microsoft Visual Studio 2010",
+        "avatarUrl": "images/specialist.jpg",
+        "certificate": {
+          "label": "сертификат",
+          "url": "data/certificates/cert-azure.jpg"
+        }
+      },
+      {
+        "period": "2011",
+        "organization": "Москва, Специалист",
+        "title": "Developing Web Applications with Microsoft Visual Studio 2010",
+        "avatarUrl": "images/specialist.jpg",
+        "certificate": {
+          "label": "сертификат",
+          "url": "data/certificates/cert-webapp.jpg"
+        }
+      },
+      {
+        "period": "2010",
+        "organization": "Москва, PM Expert",
+        "title": "Project Management. Standard PMI PMBOK Guide 2008",
+        "avatarUrl": "images/pmexpert.jpg",
+        "certificate": {
+          "label": "сертификат",
+          "url": "data/certificates/cert-pm.pdf"
+        }
+      },
+      {
+        "period": "2009",
+        "organization": "Москва, Специалист",
+        "title": "Бухгалтерия и налогооблажение",
+        "avatarUrl": "images/specialist.jpg",
+        "certificate": {
+          "label": "сертификат",
+          "url": "data/certificates/cert-accounting.pdf"
+        }
+      },
+      {
+        "period": "2006",
+        "organization": "Москва, Softline",
+        "title": "Administrator & Developer MS SQL Server 2005",
+        "avatarUrl": "images/softline.jpg",
+        "certificate": {
+          "label": "сертификат",
+          "url": "data/certificates/cert-mssql.pdf"
+        }
+      },
+      {
+        "period": "2006",
+        "organization": "Москва, Softline",
+        "title": "Administrator & Developer SQL Oracle 10i",
+        "avatarUrl": "images/softline.jpg",
+        "certificate": {
+          "label": "сертификат",
+          "url": "data/certificates/cert-oracle.pdf"
+        }
+      },
+      {
+        "period": "2006",
+        "organization": "Москва, Softline",
+        "title": "Developer C#.NET, ADO.NET, ASP.NET, Web Services",
+        "avatarUrl": "images/softline.jpg",
+        "certificate": {
+          "label": "сертификат",
+          "url": "data/certificates/cert-net.pdf"
+        }
+      }
+    ]
+  },
+  "certifications": [
+    {
+      "category": "microsoft",
+      "period": "2016",
+      "organization": "Москва, Microsoft",
+      "title": "Microsoft Certified Solutions Associate [MCSA]: Web Applications",
+      "text": "Вы можете также проверить [сертификацию Microsoft](https://mcp.microsoft.com/Anonymous/Transcript/Validate) (1136409 : litskevich).",
+      "avatarUrl": "images/mcsd.jpg",
+      "certificate": {
+        "label": "сертификат",
+        "url": "data/certificates/ms-mcsa-2016.pdf"
+      }
+    },
+    {
+      "category": "microsoft",
+      "period": "2016",
+      "organization": "Москва, Microsoft",
+      "title": "Microsoft Certified Solutions Developer [MCSD]: App Builder",
+      "text": "Вы можете также проверить [сертификацию Microsoft](https://mcp.microsoft.com/Anonymous/Transcript/Validate) (1136409 : litskevich).",
+      "avatarUrl": "images/mcsd.jpg",
+      "certificate": {
+        "label": "сертификат",
+        "url": "data/certificates/ms-mcsd-2016.pdf"
+      }
+    },
+    {
+      "category": "microsoft",
+      "period": "2014",
+      "organization": "Москва, Microsoft",
+      "title": "Microsoft Certified Solutions Developer [MCSD]: Web Applications",
+      "text": "Вы можете также проверить [сертификацию Microsoft](https://mcp.microsoft.com/Anonymous/Transcript/Validate) (1136409 : litskevich).",
+      "avatarUrl": "images/mcsd.jpg",
+      "certificate": {
+        "label": "сертификат",
+        "url": "data/certificates/ms-mcsd.pdf"
+      }
+    },
+    {
+      "category": "microsoft",
+      "period": "2014",
+      "organization": "Москва, Microsoft",
+      "title": "Microsoft Certified Professional [MCP]",
+      "text": "Вы можете также проверить [сертификацию Microsoft](https://mcp.microsoft.com/Anonymous/Transcript/Validate) (1136409 : litskevich).",
+      "avatarUrl": "images/mcp.jpg",
+      "certificate": {
+        "label": "сертификат",
+        "url": "data/certificates/ms-mcp.pdf"
+      }
+    },
+    {
+      "isVisible": false,
+      "category": "microsoft",
+      "period": "2014",
+      "organization": "Москва, Microsoft",
+      "title": "Microsoft Specialist [MS]",
+      "text": "Вы можете также проверить [сертификацию Microsoft](https://mcp.microsoft.com/Anonymous/Transcript/Validate) (1136409 : litskevich).",
+      "avatarUrl": "images/ms.jpg",
+      "certificate": {
+        "label": "сертификат",
+        "url": "data/certificates/ms-ms.pdf"
+      }
+    },
+    {
+      "isVisible": false,
+      "category": "language",
+      "period": "2014",
+      "organization": "Москва, Институт Гёте",
+      "title": "Гёте Сертификат B1 (немецкий язык)",
+      "avatarUrl": "images/goethe.jpg",
+      "certificate": {
+        "label": "сертификат",
+        "url": "data/certificates/cert-deutsch-b1.jpg"
+      }
+    },
+    {
+      "isVisible": false,
+      "category": "language",
+      "period": "2014",
+      "organization": "Москва, Институт Гёте",
+      "title": "Гёте Сертификат A2 (немецкий язык)",
+      "avatarUrl": "images/goethe.jpg",
+      "certificate": {
+        "label": "сертификат",
+        "url": "data/certificates/cert-deutsch-a2.jpg"
+      }
+    }
+  ],
+  "translations": {
+    "lang": "ru",
+    "titlePrefix": "",
+    "email": "Email",
+    "phone": "Телефон",
+    "call": "Звонок",
+    "skype": "Скайп",
+    "resume": "Резюме",
+    "downloadCV": "Загрузить Резюме (CV)",
+    "getCV": "Резюме",
+    "followme": "Социальные сети",
+    "headings": {
+      "skills": "Навыки",
+      "skillsTechnical": "Технические навыки",
+      "skillsTechnicalNet": ".NET Разработка",
+      "skillsTechnicalWeb": "Web Разработка",
+      "skillsTechnicalMethodology": "Методология",
+      "skillsSoft": "Личные качества",
+      "skillsSoftStrengths": "Сильные стороны",
+      "skillsSoftRoles": "Роли",
+      "skillsSoftLanguages": "Знания языков",
+      "experience": "Опыт",
+      "education": "Образование",
+      "educationHigh": "Высшее образование",
+      "educationCourses": "Дополнительное Обучение",
+      "certification": "Сертификация",
+      "contacts": "Контакты"
+    },
+    "menu": {
+      "skills": "Навыки",
+      "experience": "Опыт",
+      "certification": "Сертификация",
+      "educationHigh": "Образование",
+      "educationCourses": "Курсы",
+      "contacts": "Контакты"
+    }
+  }
+}

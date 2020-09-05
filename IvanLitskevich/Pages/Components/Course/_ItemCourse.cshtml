@@ -1,0 +1,21 @@
+﻿@model IvanLitskevich.Models.CourseModel
+@*<div class="education-block">*@
+@*<div class="col-4 text-center">
+        <partial name="_Avatar" model="new IvanLitskevich.Models.Views.AvatarViewModel(Model.AvatarUrl, Model.Period)" />
+    </div>*@
+@*<div class="col-md-6 col-lg-4 justify-content-start">
+        <h6>@Model.Title</h6>
+        <p class="">@Model.Organization</p>
+        <partial name="_Certificate" model="Model.Certificate" />
+    </div>*@
+@*</div>*@
+
+<div class="col-md-6 col-lg-4 py-1 py-md-2 py-lg-3">
+    <div class="card card-block w-100" style="width: 18rem;">
+        <div class="card-body p-2 p-lg-3">
+            <h6 class="card-title">@Model.Title</h6>
+            <p class="card-text">@(Model.Period), @Model.Organization</p>
+            <partial name="_Certificate" model="Model.Certificate" />
+        </div>
+    </div>
+</div>

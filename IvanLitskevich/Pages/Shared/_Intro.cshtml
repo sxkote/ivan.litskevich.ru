@@ -1,0 +1,26 @@
+﻿@model IvanLitskevich.Models.DataModel
+
+<header id="intro-header">
+    <h1>@Model.Info.Name</h1>
+    <h3 class="text-main typewrite" data-period="2000" data-type='[ @(String.Join(",", Model.Info.Titles.Select(t=>"\"" + t + "\""))) ]'>
+        <span class="wrap"></span>
+    </h3>
+</header>
+
+<section id="intro-main" class="text-white" style="font-size:1.5em;">
+    <div id="intro-badges-small">
+        <a href="" class=""><img class="microsoft-badge" src="~/images/MCSD_App_Builder.png" /></a>
+        <a href="" class="d-none d-md-inline"><img class="microsoft-badge" src="~/images/MCSA_Web_Applications.png" /></a>
+    </div>
+</section>
+
+<aside id="intro-badges">
+    <a href="@Model.Info.MicrosoftMCSD" class="" target="_blank"><img class="microsoft-badge" src="~/images/MCSD_App_Builder.png" /></a>
+    <a href="@Model.Info.MicrosoftMCSA" class="" target="_blank"><img class="microsoft-badge" src="~/images/MCSA_Web_Applications.png" /></a>
+</aside>
+
+<aside id="intro-links">
+    <a href="@Model.Info.GitHub" class="link link-text" target="_blank"><i class="icon fab fa-github"></i></a>
+    <a href="@Model.Info.Facebook" class="link link-text" target="_blank"><i class="icon fab fa-facebook"></i></a>
+    <a href="@Model.Info.CV" class="link link-main" target="_blank"><i class="fas fa-cloud-download-alt"></i></a>
+</aside>

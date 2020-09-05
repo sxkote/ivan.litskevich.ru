@@ -1,0 +1,7 @@
+﻿@model IvanLitskevich.Models.CertificateModel
+@if (Model != null)
+{
+    <div>
+        <a class="btn btn-info btn-sm file-link" href="@Model.Url" target="_blank"><i class="fas fa-cloud-download-alt"></i> @Model.Label</a>
+    </div>
+}

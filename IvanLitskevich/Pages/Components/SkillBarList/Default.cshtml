@@ -1,0 +1,10 @@
+﻿@model IEnumerable<IvanLitskevich.Models.Views.SkillViewModel>
+@foreach (var skill in Model)
+{
+    <div class="skillbar clearfix " data-percent="@(skill.Value)%" data-color="@(skill.Color)">
+        <!--#2A9FD6-->
+        <div class="skillbar-title">@skill.Title</div>
+        <div class="skillbar-bar" style="width: @(skill.Value + "%"); background-color: rgb(42, 159, 214);"></div>
+        <div class="skillbar-percent">@(skill.Value)%</div>
+    </div>
+}

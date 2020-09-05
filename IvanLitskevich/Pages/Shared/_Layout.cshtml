@@ -1,0 +1,26 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ivan Litskevich</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/styles.min.css" />
+    <script src="https://kit.fontawesome.com/50584e8b39.js" crossorigin="anonymous"></script>
+</head>
+<body data-spy="scroll" data-target="#navbar" data-offset="300">
+    <header>
+        @RenderSection("Navbar", required: false)
+    </header>
+    <main class="container">
+        @RenderBody()
+    </main>
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    <script src="~/js/typewrite.js" asp-append-version="true"></script>
+
+    @RenderSection("Scripts", required: false)
+</body>
+</html>
