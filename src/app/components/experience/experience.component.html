@@ -1,0 +1,18 @@
+<section id="experience" *ngIf="!!this.data">
+  <h2 class="my-2 pt-5 text-center text-md-left">{{this.data.translations.headings.experience}}</h2>
+
+  <div class="row experience-block" *ngFor="let item of this.data.experiences">
+    <div class="col-sm-3 col-md-4 text-center">
+<!--      <partial name="_Avatar" model="new IvanLitskevich.Models.Views.AvatarViewModel(Model.AvatarUrl, Model.Period)"/>-->
+    </div>
+    <div class="col-sm-9 col-md-8 justify-content-start">
+      <h5>{{item.organization}}</h5>
+      <h6>{{item.position}}</h6>
+      <p><em>{{item.roles}}</em></p>
+      <div class="detailed-text">
+        {{item.text}}
+        <!--        @Html.BuildMarkdown(@Model.Text)-->
+      </div>
+    </div>
+  </div>
+</section>

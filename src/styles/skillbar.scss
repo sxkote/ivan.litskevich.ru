@@ -1,0 +1,45 @@
+@import "_variables.scss";
+
+// --------------------------------------
+// ----------- SKILLBAR -----------------
+// --------------------------------------
+
+$skillbar-height: 18px;
+$skillbar-font-size: 14px;
+$skillbar-border-radius: 3px;
+$skillbar-background-color: lighten($color-bg, 20%); // #eee;
+$skillbar-font-color: $color-heading;
+
+
+.skillbar {
+  position: relative;
+  margin: 10px 0;
+  width: 100%;
+  background: $skillbar-background-color;
+  color: $skillbar-font-color;
+  height: $skillbar-height;
+  font-size: $skillbar-font-size;
+  line-height: $skillbar-font-size;
+
+  @include browser-prefix(border-radius, $skillbar-border-radius);
+  @include browser-prefix(transition, 0.4s linear);
+  @include browser-prefix(transition-property, width, background-color);
+
+  .skillbar-title {
+    position: absolute;
+    top: 1px;
+    left: 10px;
+  }
+
+  .skillbar-percent {
+    position: absolute;
+    right: 10px;
+    top: 2px;
+  }
+
+  .skillbar-bar {
+    height: $skillbar-height;
+    width: 0;
+    @include browser-prefix(border-radius, $skillbar-border-radius);
+  }
+}

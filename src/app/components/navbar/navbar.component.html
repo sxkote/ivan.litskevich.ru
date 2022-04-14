@@ -1,0 +1,46 @@
+<nav id="navbar" class="navbar fixed-top navbar-expand-md navbar-dark">
+  <div class="navbar-left">
+    <a class="navbar-brand" href="#">{{this.data?.info?.name ?? "Ivan Litskevich"}}</a>
+
+    <div class="btn-group btn-group-sm navbar-btn pull-left">
+      <!--style="display: inline-block; padding-right: 10px; padding-top: 4px;"-->
+      <button type="button" class="btn btn-info dropdown-toggle text-uppercase" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">
+        {{this.data?.translations?.lang ?? "en"}} <span class="caret"></span>
+      </button>
+      <ul class="dropdown-menu">
+        <li><a routerLink="/ru">Русский</a></li>
+        <li><a routerLink="/en">English</a></li>
+        <li><a routerLink="/de">Deutsch</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent"
+          aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item">
+        <a class="nav-link" fragment="#skills">{{this.data?.translations?.menu?.skills ?? "Skills"}}</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#experience">{{this.data?.translations?.menu?.experience ?? "Experience"}}</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#certification">{{this.data?.translations?.menu?.certification ?? "Certification"}}</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#education">{{this.data?.translations?.menu?.educationHigh ?? "Education"}}</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#courses">{{this.data?.translations?.menu?.educationCourses ?? "Courses"}}</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#contacts">{{this.data?.translations?.menu?.contacts ?? "Contacts"}}</a>
+      </li>
+    </ul>
+  </div>
+</nav>

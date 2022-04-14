@@ -1,0 +1,9 @@
+<div *ngFor="let skill of this.getSkills()" class="skillbar clearfix"
+     [attr.data-percent]="skill.value + '%'"
+     [attr.data-color]="this.color">
+  <!--#2A9FD6-->
+  <div class="skillbar-title">{{skill.title}}</div>
+  <div class="skillbar-bar" style="background-color: rgb(42, 159, 214);" [style.width]="skill.value + '%'"></div>
+  <div class="skillbar-percent">{{skill.value}}%</div>
+</div>
+

@@ -1,0 +1,71 @@
+@import "_variables.scss";
+
+// --------------------------------------
+// ----------- CONTACTS -----------------
+// --------------------------------------
+.contacts-block {
+  display: grid;
+  grid-column-gap: 1em;
+  align-items: center;
+  // ---- areas ----
+  grid-template-columns: minmax(max-content, 1fr) auto;
+  grid-template-rows: repeat(3, 1fr);
+  grid-template-areas: "name       connect " "links      links   " "download   download";
+
+  #contacts-block-name {
+    grid-area: name;
+  }
+
+  #contacts-block-links {
+    grid-area: links;
+    margin-top: 2em;
+    align-self: center;
+    justify-self: center;
+  }
+
+  #contacts-block-download {
+    grid-area: download;
+    justify-self: center;
+  }
+
+  #contacts-block-connect {
+    grid-area: connect;
+  }
+
+  i.icon {
+    font-size: 32px;
+  }
+}
+
+@media (min-width: $min-width-sm) {
+  .contacts-block {
+    // ---- areas ----
+    grid-template-columns: minmax(max-content, 1fr) auto;
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-areas: "name    links    " "connect download ";
+
+    #contacts-block-links {
+      margin-top: 0;
+      align-self: start;
+      justify-self: right;
+    }
+
+    #contacts-block-download {
+      justify-self: right;
+    }
+  }
+}
+
+@media (min-width: $min-width-md) {
+  .contacts-block {
+    // ---- areas ----
+    grid-template-columns: minmax(max-content, 1fr) repeat(2, 1fr) minmax(max-content, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-areas: "name    links   links   download" "connect links   links   download";
+
+    #contacts-block-links {
+      align-self: center;
+      justify-self: center;
+    }
+  }
+}

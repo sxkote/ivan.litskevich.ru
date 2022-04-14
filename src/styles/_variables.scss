@@ -1,0 +1,116 @@
+/*--- variables ---*/
+$color-bg: #060606; //#060606; // 060606 or fff
+$color-main: #2A9FD6;
+$color-orange: #D84722;
+$color-text: #999;
+$color-heading: #fff; //#fff or 000;
+$color-border: transparentize($color-text, 0.5);
+
+//$color-hover-default: rgba(136, 136, 136, 0.2);
+$color-hover-default: rgb(42, 159, 214);
+$color-hover-experience: $color-hover-default; //rgb(255, 136, 0);
+$color-hover-education: $color-hover-default; //rgb(42, 159, 214);
+$color-hover-certification: $color-hover-default; //rgb(204, 0, 0);
+
+$navbar-height: 57px;
+$avatar-size: 60px;
+$animation-color-time: 1.5s;
+
+$min-width-sm: 576px;
+$min-width-md: 768px;
+$min-width-xl: 1200px;
+$min-width-lg: 992px;
+
+
+
+
+// --------------------------------------
+// ------------ MIXIN -------------------
+// --------------------------------------
+// задание свойства для браузеров
+@mixin browser-prefix($property, $value...) {
+  -webkit-#{$property}: $value;
+  -moz-#{$property}: $value;
+  -ms-#{$property}: $value;
+  -o-#{$property}: $value;
+  #{$property}: $value;
+}
+
+// изменение цвета шрифта при наведении
+@mixin hover-color($color, $color-hover) {
+  color: $color !important;
+
+  &:hover {
+    color: $color-hover !important;
+  }
+}
+
+// изменение цвета фона при наведении
+@mixin hover-bgcolor($bg-color, $bg-color-hover) {
+  background-color: $bg-color !important;
+
+  &:hover {
+    background-color: $bg-color-hover !important;
+  }
+}
+
+// анимированное изменение цвета фона
+@mixin back-color-change($back-color: $color-hover-default, $border-radius: 5px) {
+  border-radius: $border-radius;
+  transition: all $animation-color-time;
+
+  &:hover {
+    background-color: transparentize($back-color, 0.80);
+    transition: all $animation-color-time;
+  }
+}
+
+// блок с данными
+@mixin element-block($back-color: $color-hover-default) {
+  @include back-color-change($back-color);
+
+  $block-padding: 1.5em;
+  $hr-width: 80%;
+
+  padding-top: $block-padding;
+  padding-bottom: 0; //$block-padding;
+  // -------------------
+  // аватар внутри блока
+  img.avatar {
+    margin-bottom: 0.5em; //отступ от текста периода
+    @include browser-prefix(filter, grayscale(100%));
+    @include browser-prefix(transition, 0.5s ease-in-out);
+  }
+  // --------------------------
+  // при наведении мыши на блок
+  &:hover {
+    img.avatar {
+      @include browser-prefix(filter, grayscale(0));
+      @include browser-prefix(transition, 0.5s ease-in-out);
+    }
+  }
+  //-----------------------------------
+  // разделительная линия между блоками
+  &:after {
+    content: ""; /* This is necessary for the pseudo element to work. */
+    display: block; /* This will put the pseudo element on its own line. */
+    margin: 0 auto; /* This will center the border. */
+    width: $hr-width; /* Change this to whatever width you want. */
+    padding-top: $block-padding; /* This creates some space between the element and the border. */
+    border-bottom: 1px solid $color-border; /* This creates the border. Replace black with whatever color you want. */
+  }
+  // -----------------
+  // абзацы
+  & p {
+    margin-bottom: 0.2em;
+    // курсивы
+    & > em {
+      color: $color-heading;
+      //font-weight: 500;
+    }
+  }
+
+  .experience-text > p {
+    margin: 0.1em 0;
+  }
+}

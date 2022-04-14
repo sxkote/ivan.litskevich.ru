@@ -1,0 +1,97 @@
+@import "_variables.scss";
+
+
+// --------------------------------------
+// ------------- INTRO ------------------
+// --------------------------------------
+
+#intro {
+  // ---- full height with background ----
+  height: 100vh;
+  padding-top: $navbar-height + 20px;
+  background-image: url('../assets/images/ivan4.png');
+  background-repeat: no-repeat;
+  background-attachment: scroll; //fixed or scroll;
+  background-position: bottom left;
+  background-size: 200px;
+  // ---- grid system ----
+  display: grid;
+  align-items: center;
+  // ---- areas ----
+  grid-template-columns: 150px auto;
+  grid-template-rows: max-content auto max-content;
+  grid-template-areas: "header header" "image main" "image main";
+
+  #intro-header {
+    grid-area: header;
+    justify-self: start;
+  }
+
+  #intro-main {
+    grid-area: main;
+    position: relative;
+    height: 100%;
+    width: 100%;
+    background: url('../assets/images/wordcloud-2.png') no-repeat scroll center right;
+    background-size: contain;
+
+    #intro-badges-small {
+      display: block;
+      position: absolute;
+      left: 60px;
+      bottom: 10px;
+    }
+  }
+
+  #intro-badges {
+    display: none;
+    grid-area: badges;
+  }
+
+  #intro-links {
+    display: none;
+    grid-area: links;
+  }
+
+  img.microsoft-badge {
+    max-width: 100px;
+  }
+}
+
+@media (min-width: $min-width-lg) {
+  #intro {
+    background-size: 300px;
+    grid-template-columns: 380px auto minmax(200px, max-content);
+    grid-template-rows: max-content auto max-content;
+    grid-template-areas: "empty header header" "image main main" "image badges links";
+
+    #intro-header {
+      justify-self: start;
+      margin-left: 0;
+    }
+
+    #intro-main {
+      #intro-badges-small {
+        display: none;
+      }
+    }
+
+    #intro-badges {
+      display: block;
+      margin: 10px 0;
+      align-self: end;
+      justify-self: left;
+    }
+
+    #intro-links {
+      display: block;
+      margin: 0 0 20px 10px;
+      align-self: end;
+      justify-self: right;
+    }
+
+    img.microsoft-badge {
+      max-width: 140px;
+    }
+  }
+}

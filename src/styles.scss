@@ -1,0 +1,32 @@
+/* You can add global styles to this file, and also import other style files */
+@import "styles/_variables.scss";
+
+@import "styles/common.scss";
+@import "styles/intro.scss";
+@import "styles/contacts.scss";
+@import "styles/skillbar.scss";
+
+
+// --------------------------------------
+// ---------- EXPERIENCE ----------------
+// --------------------------------------
+   .experience-block {
+     @include element-block($color-hover-experience);
+   }
+
+// --------------------------------------
+// ----------- EDUCATION ----------------
+// --------------------------------------
+   .education-block {
+     @include element-block($color-hover-education);
+   }
+
+// --------------------------------------
+// --------- CERTIFICATION --------------
+// --------------------------------------
+   .certification-block {
+     @include element-block($color-hover-certification);
+   }
+
+
+

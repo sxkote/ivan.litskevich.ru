@@ -1,0 +1,118 @@
+@import "_variables.scss";
+
+/*--- styles ---*/
+html, body {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  background-color: $color-bg;
+  min-height: 100vh;
+  color: $color-text;
+  scroll-behavior: smooth;
+}
+
+// ---- заголовки ----
+h1, h2, h3 {
+  color: $color-heading;
+}
+
+h3.category {
+  font-size: 1.3em !important;
+}
+
+h4, h5, h6 {
+  color: $color-main;
+}
+
+// ---- текст ----
+.text-main {
+  color: $color-main !important;
+}
+
+// ---- ссылки и кнопки ----
+a, button {
+  color: $color-main;
+  text-decoration: none;
+
+  &:hover {
+    color: darken($color-main, 20%);
+    text-decoration: none;
+  }
+
+  &.link {
+    font-size: 2em;
+    margin-left: 5px;
+    margin-right: 5px;
+
+    &.pluralsight {
+      svg {
+        width: 32px;
+        height: 32px;
+        margin-top: -8px;
+      }
+    }
+
+    &.link-text {
+      @include hover-color($color-heading, $color-text);
+    }
+
+    &.link-main {
+      @include hover-color($color-main, darken($color-main, 10%));
+    }
+  }
+
+  &.btn {
+    border-color: $color-border;
+
+    &.btn-info {
+      @include hover-bgcolor($color-main, darken($color-main, 20%));
+    }
+
+    &.btn-light {
+      @include hover-bgcolor(transparent, darken($color-main, 20%));
+      color: $color-text;
+    }
+
+    &.file-link {
+      @include hover-bgcolor(transparent, darken($color-main, 20%));
+      color: $color-text;
+      padding: 2px;
+      font-size: 0.7em;
+    }
+  }
+}
+
+// ---- меню ----
+#navbar {
+  min-height: $navbar-height;
+  background-color: $color-bg;
+  border-bottom: 1px solid $color-border;
+
+  .navbar-left {
+    display: flex;
+    align-items: center;
+    margin-right: 2em;
+  }
+
+  .dropdown-menu {
+    background-color: $color-bg;
+    border-color: $color-border;
+  }
+}
+
+// ---- карточки ----
+.card.card-block {
+  @include back-color-change($color-hover-default);
+  background: $color-bg;
+  border-color: $color-border;
+  height: 100%;
+}
+
+// ---- аватар ----
+img.avatar {
+  height: $avatar-size;
+  width: $avatar-size;
+  border-radius: 50%;
+  border: 2px solid $color-text;
+  padding: 1px;
+}

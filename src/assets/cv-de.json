@@ -1,0 +1,535 @@
+{
+  "info": {
+    "name": "Ivan Litskevich",
+    "title": "Lösungen Architekt",
+    "titles": [ "Senior .NET Developer", "Solutions Architect", "Full-Stack Developer", "Team Leader" ],
+    "url": "http://ivan.litskevich.ru/",
+    "address": "Moskau, Russia",
+    "phone": "+7-909-900-7011",
+    "email": "sxkote@gmail.com",
+    "skype": "ivan.litskevich",
+    "cv": "data/cv-de.pdf",
+    "credo": "Effizienz muss zuerst sein",
+    "facebook": "https://www.facebook.com/ivan.litskevich",
+    "linkedin": "https://www.linkedin.com/in/ivanlitskevich",
+    "googleplus": "https://plus.google.com/104075157979954791192",
+    "github": "https://github.com/sxkote",
+    "pluralsight": "https://pluralsight.com/profile/ivan-litskevich",
+    "microsoftMCSA": "data/certificates/ms-mcsa-2016.pdf",
+    "microsoftMCSD": "data/certificates/ms-mcsd-2016.pdf"
+  },
+  "experiences": [
+    {
+      "period": "01.2018 - bisher",
+      "avatarUrl": "images/light-version.png",
+      "organization": "ITF Consulting",
+      "position": "Partner, CIO",
+      "roles": "CIO, Solutions Architect, Senior .NET Developer, Team Leader",
+      "text": "Building from scratch own cloud-based B2B SAAS solution for Factoring and verifying accounts receivables - [Light-Version](http://light-version.com/en/main).\n\nDelivery and Integration Factoring System (own solution) to Partners.\n\n"
+    },
+    {
+      "period": "02.2015 - 01.2018",
+      "avatarUrl": "images/metib.jpg",
+      "organization": "JSCB Metallinvestbank",
+      "position": "Leiter Projektmanagement Abteilung",
+      "roles": "Projektmanager, Business Analyst, Lösungen Architekt, Teamleiter, Senior .NET Entwickler",
+      "text": "Menschen Management und Coaching\n\nProject Management Office (PMO) von Grund auf neu bauen.\n\nBusiness-Transformation und Entscheidungsfindung.\n\n"
+    },
+    {
+      "period": "10.2014 - 02.2015",
+      "avatarUrl": "images/vw.jpg",
+      "organization": "Volkswagen Financial Services RUS",
+      "position": "Business Analyst",
+      "roles": "Business Analyst",
+      "text": "Analyse der Geschäftsanforderungen.\n\nAnforderungen Verhandlung."
+    },
+    {
+      "period": "05.2006 - 09.2014",
+      "avatarUrl": "images/metib.jpg",
+      "organization": "JSCB Metallinvestbank",
+      "position": "Banking Technologies Leiter in Factoring-Abteilung",
+      "roles": "Lösungen Architekt, Senior .NET Developer, Teamleiter, Business Analyst",
+      "text": "Die Entwicklung der Architektur und Lösungen von Grund auf neu:\n\n**MSSQL, WinForms, ASP.NET, WCF, MVC, Azure, HTML, jQuery, REST, SOAP, X509 and other technologies.**\n\nBusiness Analyse, Optimierung und Transformation.\n\nMenschen Management, Teamleiter (verantwortlich für Entwickler und Support Gruppen).\n\nEinführung neuer Projekte und Start-ups von der Idee."
+    }
+  ],
+  "skills": {
+    "technical": [
+      {
+        "category": ".Net Development",
+        "title": "MS SQL",
+        "value": 90
+      },
+      {
+        "category": ".Net Development",
+        "title": "Microsoft Azure",
+        "value": 70
+      },
+      {
+        "category": ".Net Development",
+        "title": "C#.NET",
+        "value": 100
+      },
+      {
+        "category": ".Net Development",
+        "title": "ASP.NET MVC",
+        "value": 100
+      },
+      {
+        "category": ".Net Development",
+        "title": "ASP.NET Web Api",
+        "value": 100
+      },
+      {
+        "category": ".Net Development",
+        "title": "WCF",
+        "value": 70
+      },
+      {
+        "category": ".Net Development",
+        "title": "Entity Framework",
+        "value": 90
+      },
+      {
+        "category": ".Net Development",
+        "title": "ServiceStack",
+        "value": 80
+      },
+      {
+        "category": ".Net Development",
+        "title": "DevExpress",
+        "value": 70
+      },
+      {
+        "category": "Web Development",
+        "title": "HTML 5",
+        "value": 100
+      },
+      {
+        "category": "Web Development",
+        "title": "CSS 3, SASS",
+        "value": 100
+      },
+      {
+        "category": "Web Development",
+        "title": "Javascript",
+        "value": 80
+      },
+      {
+        "category": "Web Development",
+        "title": "JQuery",
+        "value": 80
+      },
+      {
+        "category": "Web Development",
+        "title": "TypeScript",
+        "value": 60
+      },
+      {
+        "category": "Web Development",
+        "title": "Angular JS",
+        "value": 70
+      },
+      {
+        "category": "Web Development",
+        "title": "Knockout JS",
+        "value": 20
+      },
+      {
+        "category": "Methodology",
+        "title": "Scrum",
+        "value": 80
+      },
+      {
+        "category": "Methodology",
+        "title": "DDD",
+        "value": 100
+      },
+      {
+        "category": "Methodology",
+        "title": "SOLID",
+        "value": 100
+      },
+      {
+        "category": "Methodology",
+        "title": "DRY",
+        "value": 100
+      },
+      {
+        "category": "Methodology",
+        "title": "SOA",
+        "value": 100
+      },
+      {
+        "category": "Methodology",
+        "title": "Design Patterns",
+        "value": 90
+      },
+      {
+        "category": "Methodology",
+        "title": "TDD",
+        "value": 50
+      },
+      {
+        "category": "Software",
+        "title": "Visual Studio",
+        "value": 80
+      },
+      {
+        "category": "Software",
+        "title": "WebStorm",
+        "value": 80
+      },
+      {
+        "category": "Software",
+        "title": "Jira Admin",
+        "value": 80
+      },
+      {
+        "category": "Software",
+        "title": "MS Office",
+        "value": 100
+      },
+      {
+        "category": "Software",
+        "title": "Corel Draw",
+        "value": 60
+      }
+    ],
+    "soft": [
+      {
+        "category": "Analysis",
+        "title": "Lösung komplexer Probleme und Fragen",
+        "value": 60
+      },
+      {
+        "category": "Analysis",
+        "title": "Business Optimierung und Transformation",
+        "value": 60
+      },
+      {
+        "category": "Thinking",
+        "title": "Hubschrauber Blick auf Wirtschaft und Probleme",
+        "value": 60
+      },
+      {
+        "category": "Thinking",
+        "title": "Kreatives Denken",
+        "value": 60
+      },
+      {
+        "category": "Responsibility",
+        "title": "Eigentümer auf Lösungen und Performance",
+        "value": 60
+      },
+      {
+        "category": "Learning",
+        "title": "Neue Technologien, Frameworks und Muster",
+        "value": 60
+      },
+      {
+        "category": "Responsibility",
+        "title": "Offen für neue Herausforderungen und Chancen",
+        "value": 60
+      }
+    ],
+    "roles": [
+      {
+        "category": "Roles",
+        "title": "CIO",
+        "value": 80
+      },
+      {
+        "category": "Roles",
+        "title": "Lösungen Architekt",
+        "value": 80
+      },
+      {
+        "category": "Roles",
+        "title": "Senior .NET Developer",
+        "value": 80
+      },
+      {
+        "category": "Roles",
+        "title": "Teamleiter",
+        "value": 80
+      },
+      {
+        "category": "Roles",
+        "title": "Business Analyst",
+        "value": 80
+      },
+      {
+        "category": "Roles",
+        "title": "Projektmanager",
+        "value": 80
+      }
+    ],
+    "languages": [
+      {
+        "category": "Languages",
+        "title": "Russisch",
+        "value": 100,
+        "label": "native"
+      },
+      {
+        "category": "Languages",
+        "title": "Englisch",
+        "value": 90,
+        "label": "advanced"
+      },
+      {
+        "category": "Languages",
+        "title": "Deutsch",
+        "value": 50,
+        "label": "intermediate"
+      }
+    ]
+  },
+  "education": {
+    "institutes": [
+      {
+        "period": "2017 - 2019",
+        "organization": "Higher School of Economics",
+        "faculty": "Department of Psychoanalysis and Business Consulting",
+        "title": "Applied psychoanalysis, Psychoanalytic coaching and Business consulting",
+        "avatarUrl": "images/hse_en_logo.svg",
+        "certificate": {
+          "label": "Diplom",
+          "url": "data/certificates/diplom-hse.pdf"
+        }
+      },
+      {
+        "period": "2002 - 2007",
+        "organization": "Moskauer Staatliche Lomonossov-Universitaet (MSU)",
+        "faculty": "Fakultät für Rechenmathematik und Kybernetik",
+        "title": "Mathematiker und Systemprogrammierer",
+        "avatarUrl": "images/msu.jpg",
+        "certificate": {
+          "label": "Diplom",
+          "url": "data/certificates/diplom-vmk.pdf"
+        }
+      },
+      {
+        "period": "2007 - 2010",
+        "organization": "Moskauer Staatliche Lomonossov-Universitaet (MSU)",
+        "faculty": "Fakultät für Staatliche Verwaltung (die zweite Ausbildung)",
+        "title": "Regierung und Gemeindeleiter",
+        "avatarUrl": "images/msu.jpg",
+        "certificate": {
+          "label": "Diplom",
+          "url": "data/certificates/diplom-spa.pdf"
+        }
+      }
+    ],
+    "courses": [
+      {
+        "period": "seit 2015",
+        "organization": "Lynda.com (e-learning courses)",
+        "title": "Business Kurse auf lynda.com",
+        "avatarUrl": "images/lynda.jpg"
+      },
+      {
+        "period": "seit 2014",
+        "organization": "Pluralsight.com (e-learning courses)",
+        "title": "65+ Software-Entwicklung Kurse auf pluralsight.com",
+        "avatarUrl": "images/pluralsight.jpg",
+        "certificate": {
+          "label": "Profil",
+          "url": "https://pluralsight.com/profile/ivan-litskevich"
+        }
+      },
+      {
+        "period": "2011",
+        "organization": "Moskau, Specialist",
+        "title": "Windows Azure Solutions with Microsoft Visual Studio 2010",
+        "avatarUrl": "images/specialist.jpg",
+        "certificate": {
+          "label": "Zertifikat",
+          "url": "data/certificates/cert-azure.jpg"
+        }
+      },
+      {
+        "period": "2011",
+        "organization": "Moskau, Specialist",
+        "title": "Developing Web Applications with Microsoft Visual Studio 2010",
+        "avatarUrl": "images/specialist.jpg",
+        "certificate": {
+          "label": "Zertifikat",
+          "url": "data/certificates/cert-webapp.jpg"
+        }
+      },
+      {
+        "period": "2010",
+        "organization": "Moskau, PM Expert",
+        "title": "Project Management. Standard PMI PMBOK Guide 2008",
+        "avatarUrl": "images/pmexpert.jpg",
+        "certificate": {
+          "label": "Zertifikat",
+          "url": "data/certificates/cert-pm.pdf"
+        }
+      },
+      {
+        "period": "2009",
+        "organization": "Moskau, Specialist",
+        "title": "Accounting and taxation",
+        "avatarUrl": "images/specialist.jpg",
+        "certificate": {
+          "label": "Zertifikat",
+          "url": "data/certificates/cert-accounting.pdf"
+        }
+      },
+      {
+        "period": "2006",
+        "organization": "Moskau, Softline",
+        "title": "Administrator & Developer MS SQL Server 2005",
+        "avatarUrl": "images/softline.jpg",
+        "certificate": {
+          "label": "Zertifikat",
+          "url": "data/certificates/cert-mssql.pdf"
+        }
+      },
+      {
+        "period": "2006",
+        "organization": "Moskau, Softline",
+        "title": "Administrator & Developer SQL Oracle 10i",
+        "avatarUrl": "images/softline.jpg",
+        "certificate": {
+          "label": "Zertifikat",
+          "url": "data/certificates/cert-oracle.pdf"
+        }
+      },
+      {
+        "period": "2006",
+        "organization": "Moskau, Softline",
+        "title": "Developer C#.NET, ADO.NET, ASP.NET, Web Services",
+        "avatarUrl": "images/softline.jpg",
+        "certificate": {
+          "label": "Zertifikat",
+          "url": "data/certificates/cert-net.pdf"
+        }
+      }
+    ]
+  },
+  "certifications": [
+    {
+      "category": "microsoft",
+      "period": "2016",
+      "organization": "Moskau, Microsoft",
+      "title": "Microsoft Certified Solutions Associate [MCSA]: Web Applications",
+      "text": "Sie können auch [die Microsoft Abschrift](https://mcp.microsoft.com/Anonymous/Transcript/Validate) prüfen (1136409 : litskevich).",
+      "avatarUrl": "images/mcsd.jpg",
+      "certificate": {
+        "label": "Zertifikat",
+        "url": "data/certificates/ms-mcsa-2016.pdf"
+      }
+    },
+    {
+      "category": "microsoft",
+      "period": "2016",
+      "organization": "Moskau, Microsoft",
+      "title": "Microsoft Certified Solutions Developer [MCSD]: App Builder",
+      "text": "Sie können auch [die Microsoft Abschrift](https://mcp.microsoft.com/Anonymous/Transcript/Validate) prüfen (1136409 : litskevich).",
+      "avatarUrl": "images/mcsd.jpg",
+      "certificate": {
+        "label": "Zertifikat",
+        "url": "data/certificates/ms-mcsd-2016.pdf"
+      }
+    },
+    {
+      "category": "microsoft",
+      "period": "2014",
+      "organization": "Moskau, Microsoft",
+      "title": "Microsoft Certified Solutions Developer [MCSD]: Web Applications",
+      "text": "Sie können auch [die Microsoft Abschrift](https://mcp.microsoft.com/Anonymous/Transcript/Validate) prüfen (1136409 : litskevich).",
+      "avatarUrl": "images/mcsd.jpg",
+      "certificate": {
+        "label": "Zertifikat",
+        "url": "data/certificates/ms-mcsd.pdf"
+      }
+    },
+    {
+      "category": "microsoft",
+      "period": "2014",
+      "organization": "Moskau, Microsoft",
+      "title": "Microsoft Certified Professional [MCP]",
+      "text": "Sie können auch [die Microsoft Abschrift](https://mcp.microsoft.com/Anonymous/Transcript/Validate) prüfen (1136409 : litskevich).",
+      "avatarUrl": "images/mcp.jpg",
+      "certificate": {
+        "label": "Zertifikat",
+        "url": "data/certificates/ms-mcp.pdf"
+      }
+    },
+    {
+      "isVisible": false,
+      "category": "microsoft",
+      "period": "2014",
+      "organization": "Moskau, Microsoft",
+      "title": "Microsoft Specialist [MS]",
+      "text": "Sie können auch [die Microsoft Abschrift](https://mcp.microsoft.com/Anonymous/Transcript/Validate) prüfen (1136409 : litskevich).",
+      "avatarUrl": "images/ms.jpg",
+      "certificate": {
+        "label": "Zertifikat",
+        "url": "data/certificates/ms-ms.pdf"
+      }
+    },
+    {
+      "category": "language",
+      "period": "2014",
+      "organization": "Moskau, Goethe Institute",
+      "title": "Goethe-Certificate B1 (German)",
+      "avatarUrl": "images/goethe.jpg",
+      "certificate": {
+        "label": "Zertifikat",
+        "url": "data/certificates/cert-deutsch-b1.jpg"
+      }
+    },
+    {
+      "category": "language",
+      "period": "2014",
+      "organization": "Moskau, Goethe Institute",
+      "title": "Goethe-Zertifikat A2 (Deutsch)",
+      "avatarUrl": "images/goethe.jpg",
+      "certificate": {
+        "label": "Zertifikat",
+        "url": "data/certificates/cert-deutsch-a2.jpg"
+      }
+    }
+  ],
+  "translations": {
+    "lang":  "de",
+    "titlePrefix": "Erfahrene",
+    "email": "Email",
+    "phone": "Telefon",
+    "call": "Anruf",
+    "skype": "Skype",
+    "resume": "Resümee",
+    "downloadCV": "Download CV",
+    "getCV": "get CV",
+    "followme": "Follow Me",
+    "headings": {
+      "skills": "Fähigkeiten",
+      "skillsTechnical": "Technische Fähigkeiten",
+      "skillsTechnicalNet": ".NET Development",
+      "skillsTechnicalWeb": "Web Development",
+      "skillsTechnicalMethodology": "Methodology",
+      "skillsSoft": "Soft Skills",
+      "skillsSoftStrengths": "Stärken",
+      "skillsSoftRoles": "Rollen",
+      "skillsSoftLanguages": "Sprachen",
+      "experience": "Berufserfahrung",
+      "education": "Ausbildung",
+      "educationHigh": "Ausbildung",
+      "educationCourses": "Zusätzliche Kurse",
+      "certification": "Zertifikate",
+      "contacts": "Kontakt"
+    },
+    "menu": {
+      "skills": "Fähigkeiten",
+      "experience": "Berufserfahrung",
+      "certification": "Zertifikate",
+      "educationHigh": "Ausbildung",
+      "educationCourses": "Kurse",
+      "contacts": "Kontakt"
+    }
+  }
+}

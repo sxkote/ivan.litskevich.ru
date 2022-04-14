@@ -1,0 +1,43 @@
+<section id="skills" *ngIf="!!this.data">
+  <h2 class="my-4 pt-5 text-center text-md-left">{{this.data.translations.headings.skills}}</h2>
+  <div class="row mb-5">
+    <div class="col-md-4">
+      <h3 class="category">{{this.data.translations.headings.skillsTechnicalNet}}</h3>
+      <app-skill-bar-list [skills]="this.data.skills.technical" category=".NET Development"
+                          color="#2A9FD6"></app-skill-bar-list>
+    </div>
+    <div class="col-md-4">
+      <h3 class="category">{{this.data.translations.headings.skillsTechnicalWeb}}</h3>
+      <app-skill-bar-list [skills]="this.data.skills.technical" category="Web Development"
+                          color="#27ae60"></app-skill-bar-list>
+    </div>
+    <div class="col-md-4">
+      <h3 class="category">{{this.data.translations.headings.skillsTechnicalMethodology}}</h3>
+      <app-skill-bar-list [skills]="this.data.skills.technical" category="Methodology"
+                          color="#e67e22"></app-skill-bar-list>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-4">
+      <h3 class="category">{{this.data.translations.headings.skillsSoftStrengths}}</h3>
+      <ul class="pl-3">
+        <li *ngFor="let item of this.data.skills.soft">{{item.title}}</li>
+      </ul>
+    </div>
+    <div class="col-md-4">
+      <h3 class="category">{{this.data.translations.headings.skillsSoftRoles}}</h3>
+      <ul class="pl-3">
+        <li *ngFor="let item of this.data.skills.roles">{{item.title}}</li>
+      </ul>
+    </div>
+    <div class="col-md-4">
+      <h3 class="category">{{this.data.translations.headings.skillsSoftLanguages}}</h3>
+      <ul class="pl-3">
+        <li *ngFor="let item of this.data.skills.languages">
+          <span>{{item.title}}}</span> <span>{{item.label}}</span>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+</section>

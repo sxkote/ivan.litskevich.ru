@@ -1,0 +1,35 @@
+<section id="intro" *ngIf="!!this.data">
+  <header id="intro-header">
+    <h1>{{this.data.info.name}}</h1>
+    <h3 class="text-main typewrite" data-period="2000"
+        [attr.data-type]="this.getTitlesList()"> <!--data-type='[ "Ivan","Beniamin" ]'-->
+      <span class="wrap"></span>
+    </h3>
+  </header>
+
+  <section id="intro-main" class="text-white" style="font-size:1.5em;">
+    <div id="intro-badges-small">
+      <a href="" class="">
+        <img class="microsoft-badge" src="assets/images/MCSD_App_Builder.png"/>
+      </a>
+      <a href="" class="d-none d-md-inline">
+        <img class="microsoft-badge" src="assets/images/MCSA_Web_Applications.png"/>
+      </a>
+    </div>
+  </section>
+
+  <aside id="intro-badges">
+    <a [href]="this.data.info.microsoftMCSD" class="" target="_blank">
+      <img class="microsoft-badge" src="assets/images/MCSD_App_Builder.png"/>
+    </a>
+    <a [href]="this.data.info.microsoftMCSA" class="" target="_blank">
+      <img class="microsoft-badge" src="assets/images/MCSA_Web_Applications.png"/>
+    </a>
+  </aside>
+
+  <aside id="intro-links">
+    <a [href]="this.data.info.github" class="link link-text" target="_blank"><i class="icon fab fa-github"></i></a>
+    <a [href]="this.data.info.facebook" class="link link-text" target="_blank"><i class="icon fab fa-facebook"></i></a>
+    <a [href]="this.data.info.cv" class="link link-main" target="_blank"><i class="fas fa-cloud-download-alt"></i></a>
+  </aside>
+</section>
