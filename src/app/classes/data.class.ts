@@ -1,5 +1,6 @@
 export class DataModel {
   public info: InfoModel = new InfoModel();
+  public contacts: ContactsModel = new ContactsModel();
   public experiences: ExperienceModel[] = [];
   public skills: SkillsModel = new SkillsModel();
   public education: EducationModel = new EducationModel();
@@ -8,23 +9,27 @@ export class DataModel {
 }
 
 export class InfoModel {
+  public lang: string = "";
   public name: string = "";
   public title: string = "";
   public titles: string[] = [];
-  public url: string = "";
   public address: string = "";
-  public phone: string = "";
-  public email: string = "";
-  public skype: string = "";
-  public cv: string = "";
   public credo: string = "";
+  public prefix: string = "";
+  public about: string[] = [];
+  public cv: string = "";
+}
+
+export class ContactsModel {
+  public website: string = "http://ivan.litskevich.ru";
+  public phone: string = "";
+  public email: string = "ivan@listkevich.ru";
+  public skype: string = "";
   public facebook: string = "https://www.facebook.com/ivan.litskevich";
   public linkedin: string = "https://www.linkedin.com/in/ivanlitskevich";
   public googleplus: string = "https://plus.google.com/104075157979954791192";
   public github: string = "https://github.com/sxkote";
   public pluralsight: string = "https://app.pluralsight.com/profile/ivan-litskevich";
-  public microsoftMCSA: string = "data/certificates/ms-mcsa-2016.pdf";
-  public microsoftMCSD: string = "data/certificates/ms-mcsd-2016.pdf";
 
 }
 
@@ -62,7 +67,7 @@ export class CourseModel {
   public title: string = "";
   public avatarUrl: string = "";
   public certificate: CertificateModel | undefined;
-  public isVisible: boolean = true;
+  public isVisible: boolean | undefined;
 }
 
 export class InstituteModel extends CourseModel {
@@ -80,8 +85,6 @@ export class EducationModel {
 }
 
 export class TranslationModel {
-  public lang: string = "";
-  public titlePrefix: string = "";
   public email: string = "";
   public phone: string = "";
   public call: string = "";
@@ -96,6 +99,7 @@ export class TranslationModel {
 }
 
 export class TranslateHeadingsModel {
+  public about: string = "";
   public skills: string = "";
   public skillsTechnical: string = "";
   public skillsTechnicalNet: string = "";
@@ -115,6 +119,7 @@ export class TranslateHeadingsModel {
 
 export class TranslateMenuModel {
   public skills: string = "";
+  public about: string = "";
   public experience: string = "";
   public certification: string = "";
   public educationHigh: string = "";

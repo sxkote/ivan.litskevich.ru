@@ -7,7 +7,7 @@ import {DataModel} from "../../classes/data.class";
   styleUrls: ['./experience.component.css']
 })
 export class ExperienceComponent implements OnInit {
-  @Input() data: DataModel | undefined;
+  @Input() data!: DataModel;
 
   constructor() { }
 

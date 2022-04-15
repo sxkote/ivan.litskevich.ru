@@ -1,43 +1,69 @@
 {
   "info": {
+    "lang": "ru",
     "name": "Иван Лицкевич",
     "title": "Архитектор Решений",
-    "titles": [ "Senior .NET Developer", "Solutions Architect", "Full-Stack Developer", "Team Leader" ],
-    "url": "http://ivan.litskevich.ru/",
+    "titles": [ "Senior .NET Developer", "Solutions Architect", "Full-Stack Developer", "Team Leader", "Business Coach" ],
     "address": "Москва, Россия",
+    "credo": "Ориентирован на решения. Сфокусирован на людей.",
+    "prefix": "Опытный",
+    "about": [
+      "С детства, как и все парни, я любил собирать конструктор, различные модели и устройства. Со временем, на смену этому пришли точные науки - математика и кибернетика, а с 2006 года таким конструктором для меня стала ИТ архитектура и разработка высоконагруженных корпоративных систем в области финансов и факторинга.\n\n",
+      "Базы данных MSSQL и PostgreSQL, платформа .NET, простые и понятные веб-сервисы, вездесущий веб-стек, лаконичный TypeScript, производительный Angular, масштабируемый и гранулированный Docker, современные блокчейн технологии и множество других компонент — вот детали моего нынешнего конструктора.\n\n",
+      "Обнаружив, что решение различных бизнес-задач часто выходит за пределы рационального, а принимаемые бизнес-решения могут быть иррациональны, я увлекся психологией и психоанализом.\nС 2017 года, ведя консультации в качестве психодинамического бизнес-коуча, поле моего творчества расширилось поиском решений в области психологии, психоанализа и бизнес-консультирования.\n\n",
+      "Моя страсть - решение сложных задач и нахождение нестандартных путей для достижения результата, как в области архитектуры и разработки ПО, психологии, так и в области бизнес-консультирования.\n\n",
+      "Работая в качестве CTO, менеджера, старшего разработчика, лидера команд, бизнес-коуча и многих других ролей, я не потерял интерес к самостоятельному конструированию.\nДаже оставаясь дома, с двумя сыновьями, я постоянно ищу возможность сделать что-то полезное своими руками, собрать головоломку или новое устройство на Arduino и даже смастерить что-нибудь из дерева.\n\n",
+      "Страсть к поиску оптимального и эффективного решения, внимание к деталям, постоянное желание улучшать, безоговорочная ценность осознанной команды, неутолимая жажда нового, чувствительное отношение к людям — вот те вещи, с которыми мне нравится жить и постоянно развиваться.\n\n"
+    ],
+    "cv": "assets/files/cv-ru.pdf"
+  },
+  "contacts": {
+    "website": "http://ivan.litskevich.ru/",
     "phone": "+7-909-900-7011",
-    "email": "sxkote@gmail.com",
+    "email": "ivan@litskevich.ru",
     "skype": "ivan.litskevich",
-    "cv": "data/cv-en.pdf",
-    "credo": "Эффективность превыше всего",
     "facebook": "https://www.facebook.com/ivan.litskevich",
     "linkedin": "https://www.linkedin.com/in/ivanlitskevich",
     "googleplus": "https://plus.google.com/104075157979954791192",
     "github": "https://github.com/sxkote",
-    "pluralsight": "https://pluralsight.com/profile/ivan-litskevich",
-    "microsoftMCSA": "data/certificates/ms-mcsa-2016.pdf",
-    "microsoftMCSD": "data/certificates/ms-mcsd-2016.pdf"
+    "pluralsight": "https://app.pluralsight.com/profile/ivan-litskevich"
   },
   "experiences": [
     {
       "period": "01.2018 - till now",
-      "avatarUrl": "images/light-version.png",
+      "avatarUrl": "assets/images/light-version.png",
       "organization": "Ай-Ти-Эф Консалтинг",
       "position": "Партнер и Руководитель ИТ",
-      "roles": "Руководитель ИТ, Архитектор Решений, Ведущий Разработчик .NET, Team Leader",
-      "text": "Построение «с нуля» собственного облачного B2B SAAS решения по факторингу и верификации дебиторской задолженности - [Light-Version](http://light-version.com).\n\nВнедрение и интеграция Партнерам собственной Факторинговой Системы.\n\n"
+      "roles": "Руководитель ИТ, Архитектор Решений, Старший Разработчик .NET, Team Leader",
+      "text": "Построение «с нуля» собственного мульти-факторного облачного B2B SAAS решения по факторингу и верификации дебиторской задолженности - [Light-Version](http://light-version.com).\n\nВнедрение и интеграция Партнерам собственной Факторинговой Системы.\n\nПортфели 39+ млрд. р., 500K+ поставок, 100+ пользователей.\n\nВнешние интеграции (EDI, ЭДО, SAP, 1C, etc).\n\n"
+    },
+    {
+      "period": "12.2021 - till now",
+      "avatarUrl": "assets/images/scotch.png",
+      "organization": "Scotch MicroDAO",
+      "position": "Основатель, CTO",
+      "roles": "CTO, Архитектор Решений, Старший Web3 Разработчик",
+      "text": "Разработка «с нуля» первого маркетплейса обернутой ликвидности NFT - [SCOTCH.sale](https://scotch.sale).\n\n Построение NFT маркетплейса для [протокола ENVELOP](https://envelop.is) на стэке: [Moralis](https://moralis.io/), Solidity, Angular.\n\nИмлементация полного цикла от минтинга NFT, оборачивания, работой с залогом, до продажи и покупки NFT через приложение.\n\nПоддерживаемые блокчейн сети: BSC, Polygon, Avalanche.\n\n"
+    },
+    {
+      "period": "09.2019 - till now",
+      "avatarUrl": "assets/images/1x1.png",
+      "organization": "Аналитический Консультационный Клуб №1",
+      "position": "Участник",
+      "roles": "Психоаналитический организационный бизнес-коуч, Консультатн",
+      "text": "Психоаналитическое консультирование организаций и менеджмента.\n\nФормирование предложений по развитию компаний на основе психодинамического подхода.\n\n"
     },
     {
       "period": "02.2015 - 01.2018",
-      "avatarUrl": "images/metib.jpg",
+      "avatarUrl": "assets/images/metib.jpg",
       "organization": "АКБ Металлинвестбанк",
       "position": "Руководитель отдела проектов банковских технологий",
-      "roles": "Руководитель Проектов, Бизнес Аналитик, Архитектор Решений, Team Leader, Ведущий Разработчик .NET",
-      "text": "Управление и коучинг команд.\n\nПостроение проектного офиса и сервисной модели ИТ «с нуля».\n\nТрансформация бизнес-процессов от аналитики до принятия решения.\n\n"
+      "roles": "Руководитель Проектов, Бизнес Аналитик, Архитектор Решений, Team Leader, Старший Разработчик .NET",
+      "text": "Управление и коучинг команд.\n\nПостроение проектного офиса и сервисной модели ИТ «с нуля».\n\nТрансформация бизнес-процессов от аналитики до принятия решения.\n\nРазработка новых технологических продуктов.\n\n"
     },
     {
       "period": "10.2014 - 02.2015",
-      "avatarUrl": "images/vw.jpg",
+      "avatarUrl": "assets/images/vw.jpg",
       "organization": "Фольксваген Финансовые Услуги РУС",
       "position": "Бизнес Аналитик",
       "roles": "Бизнес Аналитик",
@@ -45,7 +71,7 @@
     },
     {
       "period": "05.2006 - 09.2014",
-      "avatarUrl": "images/metib.jpg",
+      "avatarUrl": "assets/images/metib.jpg",
       "organization": "АКБ Металлинвестбанк",
       "position": "Начальник банковских технологий Банковского Упрвавления",
       "roles": "Архитектор Решений, Ведущий Разработчик .NET, Team Lead, Бизнес Аналитик",
@@ -56,8 +82,28 @@
     "technical": [
       {
         "category": ".Net Development",
-        "title": "MS SQL",
-        "value": 90
+        "title": "MS SQL, T-SQL",
+        "value": 100
+      },
+      {
+        "category": ".Net Development",
+        "title": "C#.NET, .NET Core",
+        "value": 100
+      },
+      {
+        "category": ".Net Development",
+        "title": "ASP.NET MVC, WebApi",
+        "value": 100
+      },
+      {
+        "category": ".Net Development",
+        "title": "Entity Framework",
+        "value": 100
+      },
+      {
+        "category": ".Net Development",
+        "title": "PostgreSQL",
+        "value": 80
       },
       {
         "category": ".Net Development",
@@ -66,78 +112,58 @@
       },
       {
         "category": ".Net Development",
-        "title": "C#.NET",
-        "value": 100
-      },
-      {
-        "category": ".Net Development",
-        "title": "ASP.NET MVC",
-        "value": 100
-      },
-      {
-        "category": ".Net Development",
-        "title": "ASP.NET Web Api",
-        "value": 100
-      },
-      {
-        "category": ".Net Development",
-        "title": "WCF",
-        "value": 70
-      },
-      {
-        "category": ".Net Development",
-        "title": "Entity Framework",
-        "value": 90
-      },
-      {
-        "category": ".Net Development",
-        "title": "ServiceStack",
+        "title": "DevExpress",
         "value": 80
       },
       {
         "category": ".Net Development",
-        "title": "DevExpress",
-        "value": 70
+        "title": "Docker",
+        "value": 80
       },
       {
         "category": "Web Development",
-        "title": "HTML 5",
+        "title": "HTML 5, CSS 3, SASS",
         "value": 100
       },
       {
         "category": "Web Development",
-        "title": "CSS 3, SASS",
+        "title": "TypeScript",
         "value": 100
       },
       {
         "category": "Web Development",
         "title": "Javascript",
-        "value": 80
+        "value": 100
       },
       {
         "category": "Web Development",
         "title": "JQuery",
-        "value": 80
+        "value": 100
       },
       {
         "category": "Web Development",
-        "title": "TypeScript",
-        "value": 60
+        "title": "Angular",
+        "value": 100
       },
       {
         "category": "Web Development",
         "title": "Angular JS",
-        "value": 70
+        "value": 100
       },
       {
         "category": "Web Development",
-        "title": "Knockout JS",
-        "value": 20
+        "title": "Solidity, Web3",
+        "value": 80
+      },
+      {
+        "category": "Web Development",
+        "title": "Moralis",
+        "value": 100
       },
       {
         "category": "Methodology",
-        "title": "Scrum",
-        "value": 80
+        "title": "Agile, Scrum",
+        "value": 100
       },
       {
         "category": "Methodology",
@@ -170,14 +196,19 @@
         "value": 50
       },
       {
-        "category": "Software",
-        "title": "Visual Studio",
+        "category": "Methodology",
+        "title": "Microservices",
         "value": 80
       },
       {
         "category": "Software",
+        "title": "Visual Studio",
+        "value": 100
+      },
+      {
+        "category": "Software",
         "title": "WebStorm",
-        "value": 80
+        "value": 100
       },
       {
         "category": "Software",
@@ -192,18 +223,13 @@
       {
         "category": "Software",
         "title": "Corel Draw",
-        "value": 60
+        "value": 80
       }
     ],
     "soft": [
       {
         "category": "Analysis",
-        "title": "Анализ и решение сложных проблем и задач",
-        "value": 60
-      },
-      {
-        "category": "Analysis",
-        "title": "Бизнес аналитика и трансформация бизнес-процессов",
+        "title": "Анализ и решение сложных задач",
         "value": 60
       },
       {
@@ -230,12 +256,22 @@
         "category": "Responsibility",
         "title": "Открыт для новых вызовов и возможностей",
         "value": 60
+      },
+      {
+        "category": "EQ",
+        "title": "Эмоциональный интеллект",
+        "value": 60
+      },
+      {
+        "category": "EQ",
+        "title": "Психоаналитический подход",
+        "value": 60
       }
     ],
     "roles": [
       {
         "category": "Roles",
-        "title": "CIO",
+        "title": "CTO",
         "value": 80
       },
       {
@@ -245,7 +281,7 @@
       },
       {
         "category": "Roles",
-        "title": "Ведущий разработчик .NET",
+        "title": "Старший разработчик .NET",
         "value": 80
       },
       {
@@ -261,6 +297,11 @@
       {
         "category": "Roles",
         "title": "Руководитель проектов",
+        "value": 40
+      },
+      {
+        "category": "Roles",
+        "title": "Бизнес-Коуч",
         "value": 40
       }
     ],
@@ -289,13 +330,13 @@
     "institutes": [
       {
         "period": "2017 - 2019",
-        "organization": "Higher School of Economics",
+        "organization": "НИУ Высшая Школа Экономики (ВШЭ)",
         "faculty": "МП «Психоанализ и бизнес-консультирование»",
         "title": "Прикладной психоанализ, Психоаналитический коучинг и Бизнес-Консультирование",
-        "avatarUrl": "images/hse_en_logo.svg",
+        "avatarUrl": "assets/images/hse_en_logo.svg",
         "certificate": {
           "label": "диплом",
-          "url": "data/certificates/diplom-hse.pdf"
+          "url": "assets/certificates/diplom-hse.pdf"
         }
       },
       {
@@ -303,10 +344,10 @@
         "organization": "Московский государственный университет имени М.В.Ломоносова (МГУ)",
         "faculty": "Факультет Вычислительной Математики и Кибернетики",
         "title": "Математик, Системный программист",
-        "avatarUrl": "images/msu.jpg",
+        "avatarUrl": "assets/images/msu.jpg",
         "certificate": {
           "label": "диплом",
-          "url": "data/certificates/diplom-vmk.pdf"
+          "url": "assets/certificates/diplom-vmk.pdf"
         }
       },
       {
@@ -314,10 +355,10 @@
         "organization": "Московский государственный университет имени М.В.Ломоносова (МГУ)",
         "faculty": "Факультет Государственного Управления (ФГУ) (2-ое высшее)",
         "title": "Государственное и муниципальное управление",
-        "avatarUrl": "images/msu.jpg",
+        "avatarUrl": "assets/images/msu.jpg",
         "certificate": {
           "label": "диплом",
-          "url": "data/certificates/diplom-spa.pdf"
+          "url": "assets/certificates/diplom-spa.pdf"
         }
       }
     ],
@@ -326,13 +367,13 @@
         "period": "с 2015",
         "organization": "Lynda.com (e-learning courses)",
         "title": "Бизнес тренинги и курсы на Lynda.com",
-        "avatarUrl": "images/lynda.jpg"
+        "avatarUrl": "assets/images/lynda.jpg"
       },
       {
         "period": "с 2014",
         "organization": "Pluralsight.com (e-learning courses)",
         "title": "65+ курсов по разработке и ИТ на pluralsight.com",
-        "avatarUrl": "images/pluralsight.jpg",
+        "avatarUrl": "assets/images/pluralsight.jpg",
         "certificate": {
           "label": "профиль",
           "url": "https://pluralsight.com/profile/ivan-litskevich"
@@ -342,70 +383,70 @@
         "period": "2011",
         "organization": "Москва, Специалист",
         "title": "Windows Azure Solutions with Microsoft Visual Studio 2010",
-        "avatarUrl": "images/specialist.jpg",
+        "avatarUrl": "assets/images/specialist.jpg",
         "certificate": {
           "label": "сертификат",
-          "url": "data/certificates/cert-azure.jpg"
+          "url": "assets/certificates/cert-azure.jpg"
         }
       },
       {
         "period": "2011",
         "organization": "Москва, Специалист",
         "title": "Developing Web Applications with Microsoft Visual Studio 2010",
-        "avatarUrl": "images/specialist.jpg",
+        "avatarUrl": "assets/images/specialist.jpg",
         "certificate": {
           "label": "сертификат",
-          "url": "data/certificates/cert-webapp.jpg"
+          "url": "assets/certificates/cert-webapp.jpg"
         }
       },
       {
         "period": "2010",
         "organization": "Москва, PM Expert",
         "title": "Project Management. Standard PMI PMBOK Guide 2008",
-        "avatarUrl": "images/pmexpert.jpg",
+        "avatarUrl": "assets/images/pmexpert.jpg",
         "certificate": {
           "label": "сертификат",
-          "url": "data/certificates/cert-pm.pdf"
+          "url": "assets/certificates/cert-pm.pdf"
         }
       },
       {
         "period": "2009",
         "organization": "Москва, Специалист",
         "title": "Бухгалтерия и налогооблажение",
-        "avatarUrl": "images/specialist.jpg",
+        "avatarUrl": "assets/images/specialist.jpg",
         "certificate": {
           "label": "сертификат",
-          "url": "data/certificates/cert-accounting.pdf"
+          "url": "assets/certificates/cert-accounting.pdf"
         }
       },
       {
         "period": "2006",
         "organization": "Москва, Softline",
         "title": "Administrator & Developer MS SQL Server 2005",
-        "avatarUrl": "images/softline.jpg",
+        "avatarUrl": "assets/images/softline.jpg",
         "certificate": {
           "label": "сертификат",
-          "url": "data/certificates/cert-mssql.pdf"
+          "url": "assets/certificates/cert-mssql.pdf"
         }
       },
       {
         "period": "2006",
         "organization": "Москва, Softline",
         "title": "Administrator & Developer SQL Oracle 10i",
-        "avatarUrl": "images/softline.jpg",
+        "avatarUrl": "assets/images/softline.jpg",
         "certificate": {
           "label": "сертификат",
-          "url": "data/certificates/cert-oracle.pdf"
+          "url": "assets/certificates/cert-oracle.pdf"
         }
       },
       {
         "period": "2006",
         "organization": "Москва, Softline",
         "title": "Developer C#.NET, ADO.NET, ASP.NET, Web Services",
-        "avatarUrl": "images/softline.jpg",
+        "avatarUrl": "assets/images/softline.jpg",
         "certificate": {
           "label": "сертификат",
-          "url": "data/certificates/cert-net.pdf"
+          "url": "assets/certificates/cert-net.pdf"
         }
       }
     ]
@@ -417,10 +458,10 @@
       "organization": "Москва, Microsoft",
       "title": "Microsoft Certified Solutions Associate [MCSA]: Web Applications",
       "text": "Вы можете также проверить [сертификацию Microsoft](https://mcp.microsoft.com/Anonymous/Transcript/Validate) (1136409 : litskevich).",
-      "avatarUrl": "images/mcsd.jpg",
+      "avatarUrl": "assets/images/mcsd.jpg",
       "certificate": {
         "label": "сертификат",
-        "url": "data/certificates/ms-mcsa-2016.pdf"
+        "url": "assets/certificates/ms-mcsa-2016.pdf"
       }
     },
     {
@@ -429,10 +470,10 @@
       "organization": "Москва, Microsoft",
       "title": "Microsoft Certified Solutions Developer [MCSD]: App Builder",
       "text": "Вы можете также проверить [сертификацию Microsoft](https://mcp.microsoft.com/Anonymous/Transcript/Validate) (1136409 : litskevich).",
-      "avatarUrl": "images/mcsd.jpg",
+      "avatarUrl": "assets/images/mcsd.jpg",
       "certificate": {
         "label": "сертификат",
-        "url": "data/certificates/ms-mcsd-2016.pdf"
+        "url": "assets/certificates/ms-mcsd-2016.pdf"
       }
     },
     {
@@ -441,10 +482,10 @@
       "organization": "Москва, Microsoft",
       "title": "Microsoft Certified Solutions Developer [MCSD]: Web Applications",
       "text": "Вы можете также проверить [сертификацию Microsoft](https://mcp.microsoft.com/Anonymous/Transcript/Validate) (1136409 : litskevich).",
-      "avatarUrl": "images/mcsd.jpg",
+      "avatarUrl": "assets/images/mcsd.jpg",
       "certificate": {
         "label": "сертификат",
-        "url": "data/certificates/ms-mcsd.pdf"
+        "url": "assets/certificates/ms-mcsd.pdf"
       }
     },
     {
@@ -453,10 +494,10 @@
       "organization": "Москва, Microsoft",
       "title": "Microsoft Certified Professional [MCP]",
       "text": "Вы можете также проверить [сертификацию Microsoft](https://mcp.microsoft.com/Anonymous/Transcript/Validate) (1136409 : litskevich).",
-      "avatarUrl": "images/mcp.jpg",
+      "avatarUrl": "assets/images/mcp.jpg",
       "certificate": {
         "label": "сертификат",
-        "url": "data/certificates/ms-mcp.pdf"
+        "url": "assets/certificates/ms-mcp.pdf"
       }
     },
     {
@@ -466,10 +507,10 @@
       "organization": "Москва, Microsoft",
       "title": "Microsoft Specialist [MS]",
       "text": "Вы можете также проверить [сертификацию Microsoft](https://mcp.microsoft.com/Anonymous/Transcript/Validate) (1136409 : litskevich).",
-      "avatarUrl": "images/ms.jpg",
+      "avatarUrl": "assets/images/ms.jpg",
       "certificate": {
         "label": "сертификат",
-        "url": "data/certificates/ms-ms.pdf"
+        "url": "assets/certificates/ms-ms.pdf"
       }
     },
     {
@@ -478,10 +519,10 @@
       "period": "2014",
       "organization": "Москва, Институт Гёте",
       "title": "Гёте Сертификат B1 (немецкий язык)",
-      "avatarUrl": "images/goethe.jpg",
+      "avatarUrl": "assets/images/goethe.jpg",
       "certificate": {
         "label": "сертификат",
-        "url": "data/certificates/cert-deutsch-b1.jpg"
+        "url": "assets/certificates/cert-deutsch-b1.jpg"
       }
     },
     {
@@ -490,16 +531,14 @@
       "period": "2014",
       "organization": "Москва, Институт Гёте",
       "title": "Гёте Сертификат A2 (немецкий язык)",
-      "avatarUrl": "images/goethe.jpg",
+      "avatarUrl": "assets/images/goethe.jpg",
       "certificate": {
         "label": "сертификат",
-        "url": "data/certificates/cert-deutsch-a2.jpg"
+        "url": "assets/certificates/cert-deutsch-a2.jpg"
       }
     }
   ],
   "translations": {
-    "lang": "ru",
-    "titlePrefix": "",
     "email": "Email",
     "phone": "Телефон",
     "call": "Звонок",
@@ -509,6 +548,7 @@
     "getCV": "Резюме",
     "followme": "Социальные сети",
     "headings": {
+      "about": "Обо мне",
       "skills": "Навыки",
       "skillsTechnical": "Технические навыки",
       "skillsTechnicalNet": ".NET Разработка",
@@ -527,6 +567,7 @@
     },
     "menu": {
       "skills": "Навыки",
+      "about": "Обо мне",
       "experience": "Опыт",
       "certification": "Сертификация",
       "educationHigh": "Образование",

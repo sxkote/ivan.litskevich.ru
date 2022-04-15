@@ -1,0 +1,48 @@
+<footer id="contacts">
+  <h2 class="my-4 pt-5 text-center text-md-left">{{this.data.translations.headings.contacts}}</h2>
+  <div class="contacts-block mb-5">
+    <div id="contacts-block-name">
+      <h5 class="text-white">{{this.data.info.name}}</h5>
+      {{this.data.info.address}}
+    </div>
+    <div id="contacts-block-links">
+      <a [href]="this.data.contacts.github" class="link link-text" target="_blank">
+        <i class="icon fab fa-github"></i>
+      </a>
+      <a [href]="this.data.contacts.facebook" class="link link-text" target="_blank">
+        <i class="icon fab fa-facebook"></i>
+      </a>
+      <a [href]="this.data.contacts.linkedin" class="link link-text" target="_blank">
+        <i class="icon fab fa-linkedin-in"></i>
+      </a>
+      <a [href]="this.getSantizeUrl('skype:' + this.data.contacts.skype)" class="link link-text" target="_blank">
+        <i class="icon fab fa-skype"></i>
+      </a>
+      <a [href]="this.data.contacts.pluralsight" class="link link-text pluralsight" target="_blank">
+        <svg xmlns="http://www.w3.org/2000/svg"
+             viewBox="0 0 97.319329 97.318793">
+          <g transform="matrix(1.3333333,0,0,-1.3333333,0,97.318796)">
+            <g transform="translate(-90.5055,-40.437901)">
+              <path fill="currentColor"
+                    d="m 138.336,108.08 c -17.175,6.251 -36.232,-2.636 -42.4837,-19.8109 -6.2507,-17.1742 2.6356,-36.2328 19.8107,-42.4836 17.174,-6.2511 36.233,2.636 42.484,19.8102 6.251,17.1746 -2.637,36.2333 -19.811,42.4843 z M 126.999,40.4379 c -20.122,0 -36.4935,16.3711 -36.4935,36.4945 0,20.1239 16.3715,36.4946 36.4935,36.4946 20.124,0 36.496,-16.3707 36.496,-36.4946 0,-20.1234 -16.372,-36.4945 -36.496,-36.4945"></path>
+              <path fill="currentColor"
+                    d="M 117.67,95.7902 V 58.0746 l 32.662,18.8578 z m 3.126,-5.4148 23.284,-13.443 -23.284,-13.4426 v 26.8856"></path>
+              <path fill="currentColor"
+                    d="M 110.161,91.673 V 62.1922 l 25.53,14.741 z m 3.127,-5.4152 16.151,-9.325 -16.151,-9.3258 v 18.6508"></path>
+            </g>
+          </g>
+        </svg>
+      </a>
+    </div>
+    <div id="contacts-block-download">
+      <a class="btn btn-sm btn-info" [href]="this.data.info.cv" target="_blank">
+        <i class="fas fa-cloud-download-alt"></i> {{this.data.translations.downloadCV}}
+      </a>
+    </div>
+    <div id="contacts-block-connect">
+      <a [href]="this.getSantizeUrl('mailto:' + this.data.contacts.email)">{{this.data.contacts.email}}</a>
+      <br/>
+      <a [href]="this.getSantizeUrl('tel:' + this.data.contacts.phone)">{{this.data.contacts.phone}}</a>
+    </div>
+  </div>
+</footer>

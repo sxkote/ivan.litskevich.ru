@@ -1,49 +1,13 @@
 <header>
   <app-navbar [data]="this.data"></app-navbar>
 </header>
-<main class="container">
+<main class="container" *ngIf="!!this.data">
   <app-intro [data]="this.data"></app-intro>
   <app-skills [data]="this.data"></app-skills>
+  <app-about [data]="this.data"></app-about>
   <app-experience [data]="this.data"></app-experience>
+  <app-certification [data]="this.data"></app-certification>
+  <app-education [data]="this.data"></app-education>
+  <app-courses [data]="this.data"></app-courses>
+  <app-contacts [data]="this.data"></app-contacts>
 </main>
-
-
-<!--<section id="experience">-->
-<!--  <h2 class="my-2 pt-5 text-center text-md-left">@Model.Data.Translations.Headings.Experience</h2>-->
-<!--  @foreach (var item in Model.Data.Experiences)-->
-<!--  {-->
-<!--  <vc:experience model="@item"></vc:experience>-->
-<!--  }-->
-<!--</section>-->
-
-<!--<section id="certification">-->
-<!--  <h2 class="my-4 pt-5 text-center text-md-left">@Model.Data.Translations.Headings.Certification</h2>-->
-<!--  @foreach (var item in Model.Data.Certifications.Where(i => i.IsVisible))-->
-<!--  {-->
-<!--  <vc:certification model="@item"></vc:certification>-->
-<!--  }-->
-<!--</section>-->
-
-
-<!--<section id="education">-->
-<!--  <h2 class="my-4 pt-5 text-center text-md-left">@Model.Data.Translations.Headings.EducationHigh</h2>-->
-<!--  @foreach (var item in Model.Data.Education.Institutes.Where(i => i.IsVisible))-->
-<!--  {-->
-<!--  <vc:institute model="@item"></vc:institute>-->
-<!--  }-->
-<!--</section>-->
-
-<!--<section id="courses">-->
-<!--  <h2 class="my-4 pt-5 text-center text-md-left">@Model.Data.Translations.Headings.EducationCourses</h2>-->
-<!--  <div class="row">-->
-<!--    @foreach (var item in Model.Data.Education.Courses.Where(i => i.IsVisible))-->
-<!--    {-->
-<!--    <vc:course model="@item"></vc:course>-->
-<!--    }-->
-<!--  </div>-->
-<!--</section>-->
-
-<!--<footer id="contacts">-->
-<!--  <h2 class="my-4 pt-5 text-center text-md-left">@Model.Data.Translations.Headings.Contacts</h2>-->
-<!--  <partial name="_Contacts" model="@Model.Data" />-->
-<!--</footer>-->

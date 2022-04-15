@@ -2,11 +2,11 @@ import {Component, Input, OnInit} from '@angular/core';
 import {DataModel} from "../../classes/data.class";
 
 @Component({
-  selector: 'app-skills',
-  templateUrl: './skills.component.html',
-  styleUrls: ['./skills.component.css']
+  selector: 'app-about',
+  templateUrl: './about.component.html',
+  styleUrls: ['./about.component.css']
 })
-export class SkillsComponent implements OnInit {
+export class AboutComponent implements OnInit {
   @Input() data!: DataModel;
 
   constructor() { }

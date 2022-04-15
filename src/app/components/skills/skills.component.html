@@ -1,4 +1,4 @@
-<section id="skills" *ngIf="!!this.data">
+<section id="skills">
   <h2 class="my-4 pt-5 text-center text-md-left">{{this.data.translations.headings.skills}}</h2>
   <div class="row mb-5">
     <div class="col-md-4">
@@ -34,7 +34,7 @@
       <h3 class="category">{{this.data.translations.headings.skillsSoftLanguages}}</h3>
       <ul class="pl-3">
         <li *ngFor="let item of this.data.skills.languages">
-          <span>{{item.title}}}</span> <span>{{item.label}}</span>
+          <span>{{item.title}}</span>&nbsp;&nbsp;<span>({{item.label}})</span>
         </li>
       </ul>
     </div>

@@ -1,0 +1,14 @@
+<section id="education">
+  <h2 class="my-4 pt-5 text-center text-md-left">{{this.data.translations.headings.educationHigh}}</h2>
+  <div class="row education-block" *ngFor="let item of this.getInstitutes()">
+    <div class="col-sm-3 col-md-4 text-center">
+      <app-avatar [url]="item.avatarUrl" [title]="item.period"></app-avatar>
+    </div>
+    <div class="col-sm-9 col-md-8 justify-content-start">
+      <h5>{{item.organization}}</h5>
+      <h6>{{item.faculty}}</h6>
+      <p>{{item.title}}</p>
+      <app-certificate [certificate]="item.certificate"></app-certificate>
+    </div>
+  </div>
+</section>

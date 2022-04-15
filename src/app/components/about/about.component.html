@@ -1,0 +1,6 @@
+<section id="about">
+  <h2 class="my-4 pt-5 text-center text-md-left">{{this.data.translations.headings.about}}</h2>
+  <p *ngFor="let text of this.data.info.about">
+    <app-markdown [text]="text"></app-markdown>
+  </p>
+</section>

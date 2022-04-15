@@ -7,7 +7,7 @@ import {DataModel} from "../../classes/data.class";
   styleUrls: ['./intro.component.css']
 })
 export class IntroComponent implements OnInit {
-  @Input() data: DataModel | undefined;
+  @Input() data!: DataModel;
 
   constructor() {
   }
@@ -19,8 +19,6 @@ export class IntroComponent implements OnInit {
     if (!this.data)
       return "";
 
-    const result = "[" + this.data.info.titles.map(t => '"' + t + '"').join(",") + "]";
-    console.log(result);
-    return result;
+    return  "[" + this.data.info.titles.map(t => '"' + t + '"').join(",") + "]";
   }
 }

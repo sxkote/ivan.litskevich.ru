@@ -41,8 +41,8 @@ a, button {
 
   &.link {
     font-size: 2em;
-    margin-left: 5px;
-    margin-right: 5px;
+    margin-left: 7px;
+    margin-right: 7px;
 
     &.pluralsight {
       svg {
@@ -79,6 +79,10 @@ a, button {
       padding: 2px;
       font-size: 0.7em;
     }
+  }
+
+  &.empty{
+    cursor: pointer;
   }
 }
 
