@@ -9,13 +9,19 @@
         {{this.data?.info?.lang ?? "en"}} <span class="caret"></span>
       </button>
       <ul class="dropdown-menu">
-<!--        <li><a routerLink="ru">Русский</a></li>-->
-<!--        <li><a routerLink="en">English</a></li>-->
+        <!--        <li><a routerLink="ru">Русский</a></li>-->
+        <!--        <li><a routerLink="en">English</a></li>-->
         <li><a (click)="this.switchLanguage('ru')" class="empty">Русский</a></li>
         <li><a (click)="this.switchLanguage('en')" class="empty">English</a></li>
         <!--        <li><a (click)="this.switchLanguage('de')" class="empty">Deutsch</a></li>-->
       </ul>
     </div>
+
+    <a class="btn btn-sm btn-secondary ml-2" target="_blank"
+       [href]="this.data.info.cv" *ngIf="this.data">
+      <i class="fas fa-cloud-download-alt"></i>
+      {{this.data.translations.resume}}
+    </a>
   </div>
 
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent"
