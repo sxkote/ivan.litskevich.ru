@@ -9,7 +9,7 @@
   // ---- full height with background ----
   height: 100vh;
   padding-top: $navbar-height + 20px;
-  background-image: url('../assets/images/ivan4.png');
+  background-image: url('../assets/images/ivan6.png');
   background-repeat: no-repeat;
   background-attachment: scroll; //fixed or scroll;
   background-position: bottom left;
@@ -60,7 +60,7 @@
 
 @media (min-width: $min-width-lg) {
   #intro {
-    background-size: 300px;
+    background-size: 338px;
     grid-template-columns: 380px auto minmax(200px, max-content);
     grid-template-rows: max-content auto max-content;
     grid-template-areas: "empty header header" "image main main" "image badges links";
